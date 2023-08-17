@@ -1,0 +1,23 @@
+package com.demo.DtoMapstructApp.mapper;
+
+import org.mapstruct.Mapper;
+import org.mapstruct.Mapping;
+import org.mapstruct.factory.Mappers;
+
+import com.demo.DtoMapstructApp.dto.ProductDto;
+import com.demo.DtoMapstructApp.model.Product;
+
+@Mapper
+public interface ProductMapper {
+	
+	ProductMapper INSTANCE=Mappers.getMapper(ProductMapper.class);
+	
+	
+	@Mapping(source = "product.desc",target = "description")
+	ProductDto modelToDto(Product product);
+
+	@Mapping(source = "dto.description",target = "desc")
+	Product dtoTomodel(ProductDto dto);
+
+
+}

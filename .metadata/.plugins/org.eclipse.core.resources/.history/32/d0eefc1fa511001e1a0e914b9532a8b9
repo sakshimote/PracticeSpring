@@ -1,0 +1,5 @@
+package com.example.PaymentServiceDemo.service;
+
+public interface PaymentService {
+
+}

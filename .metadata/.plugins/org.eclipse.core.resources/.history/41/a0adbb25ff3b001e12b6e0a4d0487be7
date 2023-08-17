@@ -1,0 +1,26 @@
+package NumericStreams;
+
+import java.util.stream.IntStream;
+
+public class NumericStreamsAggregateFunctions {
+	
+	public static void main(String[] args) {
+		
+		/*
+		 * sum()
+		 * max()
+		 * min()
+		 * average()
+		 */
+		
+		
+		int sum=IntStream.rangeClosed(1, 50).sum();
+		System.out.println(sum);
+		
+		
+		
+	}
+	
+	
+
+}

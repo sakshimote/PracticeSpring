@@ -1,0 +1,43 @@
+package com.example.PaymentServiceDemo.service;
+
+import java.time.Instant;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.example.PaymentServiceDemo.Repository.TransactionDetailsRepository;
+import com.example.PaymentServiceDemo.entity.TransactionDetails;
+import com.example.PaymentServiceDemo.model.PaymentRequest;
+
+import lombok.extern.log4j.Log4j2;
+
+
+@Service
+@Log4j2
+public class PaymentServiceImpl implements PaymentService {
+
+	@Autowired
+	private TransactionDetailsRepository transactionDetailsRepository;
+	
+	
+	@Override
+	public long doPayment(PaymentRequest paymentRequest) {
+		// TODO Auto-generated method stub
+		log.info("Recording payment deatils: ",paymentRequest);
+		
+		TransactionDetails transactionDetails=TransactionDetails.builder()
+				.paymentDate(Instant.now())
+				.paymentMode((String)paymentRequest.getPaymentMode().name())
+				.paymentStatus("SUCCESS")
+				.orderId(paymentRequest.getOrderId())
+				.referenceNumber(paymentRequest.getReferenceNumber())
+				.amount(paymentRequest.getAmount())
+				.build();
+		
+		transactionDetailsRepository.save(transactionDetails);
+		log.info("transaction completed with id: ",transactionDetails.getId());
+		
+		return transactionDetails.getId();
+	}
+
+}

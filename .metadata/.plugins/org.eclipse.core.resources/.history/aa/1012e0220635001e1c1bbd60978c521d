@@ -1,0 +1,51 @@
+package FunctionalInterfaces;
+
+import java.util.List;
+import java.util.function.BiConsumer;
+import java.util.function.Consumer;
+import java.util.function.Predicate;
+
+import Data.Student;
+import Data.StudentDatabase;
+
+public class PredicateAndConsumer {
+	
+	BiConsumer<String, List<String>> 
+	studentBiConsumer=(name,activities)->System.out.println(name+":"+activities);
+	
+	
+	
+	
+	Predicate<Student> predicateStudent1=(student)->{
+		return student.getGpa()>=3.9;
+		
+	};
+	
+	Predicate<Student> predicateStudent2=(student)->{
+		return student.getGradeLevel()>=3;
+		
+	};
+	
+	
+	
+	Consumer<Student> consumerStudent=(student)->{
+		
+		if(predicateStudent1.and(predicateStudent2).test(student)) {
+			studentBiConsumer.accept(student.getName(), student.getActivities());
+		}
+		
+	};
+	
+	public void printNameActivity(List<Student> studentList) {
+		studentList.forEach(consumerStudent);
+	}
+	public static void main(String[] args) {
+		
+		List<Student> studentList=StudentDatabase.getAllStudents();
+		
+		new PredicateAndConsumer().printNameActivity(studentList);
+		
+		
+	}
+
+}

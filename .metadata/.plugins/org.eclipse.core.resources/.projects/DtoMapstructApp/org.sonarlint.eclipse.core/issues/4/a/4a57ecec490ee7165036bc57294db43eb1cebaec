@@ -1,0 +1,17 @@
+
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ø‚ºûøÿÿÿÿHáRMINORZ
+CODE_SMELL
+‰	java:S116"RRename this field "item_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(þÒ‚Àûÿÿÿÿ8‘ÝïÏ‹1HâRMINORZ
+CODE_SMELL
+i
+java:S1128"7Remove this unused import 'jakarta.persistence.Column'.(Ó‰ÙE8 ºÕÏ‹1HãRMINORZ
+CODE_SMELL
+r
+java:S1128":Remove this unused import 'jakarta.persistence.ManyToOne'.(áîÖãùÿÿÿÿ8˜¢²Î‹1HåRMINORZ
+CODE_SMELL
+q
+java:S1128"9Remove this unused import 'jakarta.persistence.OneToOne'.(Ç­É™üÿÿÿÿ8ÛÏ«Í‹1HçRMINORZ
+CODE_SMELL
+n
+java:S1128";Remove this unused import 'jakarta.persistence.JoinColumn'.(ÝçÆ•8˜¢²Î‹1HéRMINORZ
+CODE_SMELL

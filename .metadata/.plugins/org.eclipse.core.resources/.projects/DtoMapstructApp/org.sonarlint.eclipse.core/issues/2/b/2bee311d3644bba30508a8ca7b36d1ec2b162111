@@ -1,0 +1,13 @@
+
+
+java:S3655<"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(•Œèóÿÿÿÿÿ8ˆì¡ô‰1H¨RMAJORZBUG
+|
+java:S36556"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(ë¼¡¯8Èäô‰1H©RMAJORZBUG
+c
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8Ë»æÍ‹1HªRMINORZ
+CODE_SMELL
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(íµç…úÿÿÿÿH¬RMINORZ
+CODE_SMELL
+x
+java:S1128"@Remove this unused import 'com.demo.DtoMapstructApp.model.Item'.(ş„Áûÿÿÿÿ8úæŠĞ‹1H­RMINORZ
+CODE_SMELL

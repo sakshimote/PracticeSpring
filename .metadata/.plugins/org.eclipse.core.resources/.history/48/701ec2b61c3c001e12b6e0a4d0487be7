@@ -1,0 +1,29 @@
+package TerminalOperations;
+
+import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
+
+import Data.Student;
+import Data.StudentDatabase;
+
+public class GroupingByExample {
+	/*
+	 * groupingBy(): collector is equivalent to the groupBy() operation in sql
+	 * used to group elements  based on property
+	 * the output of groupingBy() is going to be a Map<K,V>
+	 * has 3 diff versions of groupingBy()
+	 */
+	public static Map<String, List<Student>> groupStudentsByGender() {
+	   return	StudentDatabase.getAllStudents().stream().collect(Collectors.groupingBy(Student::getGender));
+	}
+	public static void main(String[] args) {
+		
+		
+		
+		
+		
+		
+	}
+
+}

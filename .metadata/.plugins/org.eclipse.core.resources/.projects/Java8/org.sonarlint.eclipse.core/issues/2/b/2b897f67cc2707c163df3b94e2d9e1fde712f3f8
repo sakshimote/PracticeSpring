@@ -1,0 +1,15 @@
+
+œ
+java:S1488"iImmediately return this expression instead of assigning it to the temporary variable "StudentActivities".(‰¨ñµ8‚–ƒš1Hã$RMINORZ
+CODE_SMELL
+ƒ	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰¨ñµ8‚–ƒš1Hâ$RMINORZ
+CODE_SMELL
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ßçÔ¶úÿÿÿÿHà$RMINORZ
+CODE_SMELL
+…
+java:S6204"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8‚–ƒš1Hæ$RMAJORZ
+CODE_SMELL
+k	java:S106&"9Replace this use of System.out or System.err by a logger.(İó¾×8¯·š1Hï$RMAJORZ
+CODE_SMELL
+k	java:S106'"9Replace this use of System.out or System.err by a logger.(€Ñ•×8‚–ƒš1Hî$RMAJORZ
+CODE_SMELL

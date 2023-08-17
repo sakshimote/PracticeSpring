@@ -1,0 +1,23 @@
+
+h
+java:S1611 "5Remove the parentheses around the "student" parameter(Ÿ’é8¡õ¡úœ1Hù"RMINORZ
+CODE_SMELL
+‹
+java:S1602"SRemove useless curly braces around statement and then remove useless return keyword(©Ëš§ûÿÿÿÿ8¡õ¡úœ1Hö"RMINORZ
+CODE_SMELL
+‹
+java:S1602"SRemove useless curly braces around statement and then remove useless return keyword(ÂÂÏüøÿÿÿÿ8¡õ¡úœ1Hø"RMINORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(éÂ„ôúÿÿÿÿ8ãúÙúœ1Hú"RMAJORZ
+CODE_SMELL
+h
+java:S1611'"5Remove the parentheses around the "student" parameter(Èµ‹8¡õ¡úœ1H÷"RMINORZ
+CODE_SMELL
+„	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¦Ş«DHï"RMINORZ
+CODE_SMELL
+m
+java:S1611"5Remove the parentheses around the "student" parameter(ÂÂÏüøÿÿÿÿ8¡õ¡úœ1Hõ"RMINORZ
+CODE_SMELL
+†
+java:S1602 "SRemove useless curly braces around statement and then remove useless return keyword(Ÿ’é8÷Ÿòúœ1Hû"RMINORZ
+CODE_SMELL

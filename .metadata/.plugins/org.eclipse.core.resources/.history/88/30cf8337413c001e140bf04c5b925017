@@ -1,0 +1,31 @@
+package ParallelStreams;
+
+import java.util.stream.IntStream;
+
+public class SequentialVsParallelStreams {
+
+	/*
+	 * parallel streams:splits the source of data  into multiple parts
+	 * process them parallely
+	 * combine the result
+	 * 
+	 * 
+	 */
+	
+	public static int sequentialSum() { 
+		return IntStream.rangeClosed(1, 50).sum(); //sequential stream
+	}
+	
+	public static int parallelSum() {
+		return 	IntStream.rangeClosed(1, 50).parallel().sum(); //parallel stream
+	}
+	public static void main(String[] args) {
+		
+	
+		
+		
+
+
+	}
+
+}

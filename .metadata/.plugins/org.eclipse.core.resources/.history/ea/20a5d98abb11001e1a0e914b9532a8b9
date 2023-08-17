@@ -1,0 +1,51 @@
+package com.project.orderservicedemo.service;
+
+import java.time.Instant;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.project.orderservicedemo.entity.Order;
+import com.project.orderservicedemo.external.client.ProductService;
+import com.project.orderservicedemo.model.OrderRequest;
+import com.project.orderservicedemo.repository.OrderRepository;
+
+import lombok.extern.log4j.Log4j2;
+
+@Service
+@Log4j2
+public class OrderServiceImpl implements OrderService {
+	
+	@Autowired
+	private OrderRepository orderRepository;
+	
+	@Autowired
+	private ProductService productService;
+	
+	@Override
+	public long placeOrder(OrderRequest orderRequest) {
+		
+		
+		productService.reduceQuantity(orderRequest.getProductId(), orderRequest.getQuantity());
+		
+		
+		
+		
+		log.info("placing order with order-request "+orderRequest);
+		Order order=Order.builder()
+				.amount(orderRequest.getTotalAmount())
+				.quantity(orderRequest.getQuantity())
+				.productId(orderRequest.getProductId())
+				.orderDate(Instant.now())
+				.orderStatus("ORDER CREATED").build();
+			
+		order=orderRepository.save(order);
+		
+		log.info("order placed successfully with orderid "+order.getOrderId());
+		
+		return order.getOrderId();
+	}
+	
+
+}
+

@@ -1,0 +1,9 @@
+package com.demo.DtoMapstructApp.mapper;
+
+import com.demo.DtoMapstructApp.dto.productDto;
+
+public class ProductMapper {
+	
+	productDto modelToDto=
+
+}

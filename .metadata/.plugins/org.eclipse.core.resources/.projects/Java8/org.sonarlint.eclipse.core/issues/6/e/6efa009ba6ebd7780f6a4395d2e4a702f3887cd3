@@ -1,0 +1,16 @@
+
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ßçÔ¶úÿÿÿÿH³$RMINORZ
+CODE_SMELL
+—
+java:S1488"_Immediately return this expression instead of assigning it to the temporary variable "nameSet".(„ÛÖ”şÿÿÿÿ8ñ™1HÌ$RMINORZ
+CODE_SMELL
+p	java:S106'"9Replace this use of System.out or System.err by a logger.(êí“øÿÿÿÿ8âÀƒ™1HÆ$RMAJORZ
+CODE_SMELL
+˜
+java:S1488"`Immediately return this expression instead of assigning it to the temporary variable "nameList".(„ÛÖ”şÿÿÿÿ8¾Ì™1HÇ$RMINORZ
+CODE_SMELL
+…
+java:S6204"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(¢Ø½¤8Ôàÿ˜1Hº$RMAJORZ
+CODE_SMELL
+k	java:S106("9Replace this use of System.out or System.err by a logger.(§ÆÓ‹8Š¸™1HÓ$RMAJORZ
+CODE_SMELL

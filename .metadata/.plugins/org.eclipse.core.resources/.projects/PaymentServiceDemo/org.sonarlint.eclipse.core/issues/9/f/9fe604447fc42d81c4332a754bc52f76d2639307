@@ -1,0 +1,15 @@
+
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ò˜ÁÐùÿÿÿÿHàRMINORZ
+CODE_SMELL
+i
+java:S11350"2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿ8áÊÓý‘1HëRINFOZ
+CODE_SMELL
+i
+java:S1135"2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿ8¶Å¦¼Ž1HßRINFOZ
+CODE_SMELL
+\
+java:S1905 ")Remove this unnecessary cast to "String".(ò¼Âî8¶Å¦¼Ž1HáRMINORZ
+CODE_SMELL
+š
+java:S14885"gImmediately return this expression instead of assigning it to the temporary variable "paymentResponse".(´‡©É8Š¸êý‘1HóRMINORZ
+CODE_SMELL

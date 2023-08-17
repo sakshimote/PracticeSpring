@@ -1,0 +1,9 @@
+package com.project.productservicedemo.service;
+
+import com.project.productservicedemo.model.ProductRequest;
+
+public interface ProductService {
+
+	long addPrdouct(ProductRequest productRequest);
+
+}

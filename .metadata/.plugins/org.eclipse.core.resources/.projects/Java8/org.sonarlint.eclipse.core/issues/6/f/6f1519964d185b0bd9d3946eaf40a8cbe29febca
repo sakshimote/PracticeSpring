@@ -1,0 +1,15 @@
+
+k	java:S106"9Replace this use of System.out or System.err by a logger.(ƒå Ù8ÙÕ²íŸ1H°'RMAJORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(ã¯Šß8ÖÖ·íŸ1Hµ'RMAJORZ
+CODE_SMELL
+„	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÙÑ›:H¨'RMINORZ
+CODE_SMELL
+x
+java:S1128"@Remove this unused import 'java.util.TooManyListenersException'.(Êæž™ÿÿÿÿÿ8ÙÕ²íŸ1H±'RMINORZ
+CODE_SMELL
+…
+java:S6204"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ƒû‡Ï8ãáÁíŸ1H¸'RMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(œ’û›ùÿÿÿÿ8ãáÁíŸ1H¹'RMAJORZ
+CODE_SMELL

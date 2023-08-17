@@ -1,0 +1,21 @@
+
+i
+java:S1135"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ8÷ãø¯ˆ1H€RINFOZ
+CODE_SMELL
+i
+java:S1135*"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ8÷ãø¯ˆ1HRINFOZ
+CODE_SMELL
+i
+java:S11359"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ8÷ãø¯ˆ1H‚RINFOZ
+CODE_SMELL
+Š
+java:S62042"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(æ ÏÚùÿÿÿÿ8”Òì°ˆ1HƒRMAJORZ
+CODE_SMELL
+|
+java:S3655:"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(Ş·‚ø8õû¥±ˆ1H„RMAJORZBUG
+i
+java:S1135B"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ8÷ãø¯ˆ1H…RINFOZ
+CODE_SMELL
+•
+java:S1488."]Immediately return this expression instead of assigning it to the temporary variable "list3".(¡¿¼ûÿÿÿÿ8ïèí°ˆ1H†RMINORZ
+CODE_SMELL

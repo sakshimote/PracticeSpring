@@ -1,0 +1,40 @@
+package TerminalOperations;
+
+import java.util.stream.Collectors;
+
+import Data.Student;
+import Data.StudentDatabase;
+
+public class JoiningExample {
+	
+	/*
+	 * Terminal operations colleects the data for you
+	 * Terminal operations starts the whole stream  pipeline
+	 * 
+	 * Terminal Operations:
+	 * 1.forEach()
+	 * 2.min()
+	 * 3.max()
+	 * 4.reduce()
+	 * 5.collect()
+	 * etc
+	 * 
+	 * 
+	 * collect():Method takes in an input of type collector
+	 * produces result as per the input passed to collect() method 
+	 * 
+	 * joining():Collector performs the string concatenation on the elements in stream
+	 * -has 3 diff overloaded versions
+	 * 
+	 */
+	
+	public static String joining_1() {
+	return 	StudentDatabase.getAllStudents().stream().map(Student::getName).collect(Collectors.joining());
+	}
+	
+	public static void main(String[] args) {
+	System.out.println(joining_1());
+		
+	}
+
+}

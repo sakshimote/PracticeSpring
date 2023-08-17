@@ -1,0 +1,16 @@
+package FunctionalInterfaces;
+
+public class FunctionExample1 {
+	
+	public static void performConcat(String str) {
+		
+	}
+	
+	public static void main(String[] args) {
+		
+		performConcat("concat operarion");
+		
+		
+	}
+
+}

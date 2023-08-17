@@ -1,0 +1,21 @@
+
+Š
+java:S4276"WRefactor this code to use the more specialised Functional Interface 'IntBinaryOperator'(Ç¥˜Á8ÛîÇÌ1Hª#RMINORZ
+CODE_SMELL
+
+java:S4276"WRefactor this code to use the more specialised Functional Interface 'IntBinaryOperator'(ªÒ±”øÿÿÿÿ8´ËŞÌ1H±#RMINORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(ÓÀÛ‘8­ŸÛÌ1H¯#RMAJORZ
+CODE_SMELL
+z
+java:S1612"BReplace this lambda with method reference 'Comparable::compareTo'.(Ò•˜Æûÿÿÿÿ8­ŸÛÌ1H¬#RMINORZ
+CODE_SMELL
+
+java:S4276"WRefactor this code to use the more specialised Functional Interface 'IntBinaryOperator'( Àİ”øÿÿÿÿ8­ŸÛÌ1H®#RMINORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(çî»Øûÿÿÿÿ8´ËŞÌ1H²#RMAJORZ
+CODE_SMELL
+j	java:S106"9Replace this use of System.out or System.err by a logger.(›»¨)8ÛîÇÌ1H«#RMAJORZ
+CODE_SMELL
+„	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¦Ş«DH¨#RMINORZ
+CODE_SMELL

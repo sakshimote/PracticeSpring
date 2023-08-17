@@ -1,0 +1,16 @@
+
+
+java:S1612"LReplace this lambda with method reference 'StudentDatabase::getAllStudents'.(¿ÁØ8¯äÿÌ1Há#RMINORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(è›¡8¬ûôÌ1H¹#RMAJORZ
+CODE_SMELL
+„	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¦Ş«DH´#RMINORZ
+CODE_SMELL
+‹
+java:S1602"SRemove useless curly braces around statement and then remove useless return keyword(‘çÄŸøÿÿÿÿ8¬ûôÌ1H¶#RMINORZ
+CODE_SMELL
+†
+java:S1602"SRemove useless curly braces around statement and then remove useless return keyword(¿ÁØ8¯äÿÌ1Hà#RMINORZ
+CODE_SMELL
+j	java:S106"9Replace this use of System.out or System.err by a logger.(ŸŞ†)8€‘Í1Hæ#RMAJORZ
+CODE_SMELL

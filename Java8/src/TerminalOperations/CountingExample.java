@@ -1,0 +1,23 @@
+package TerminalOperations;
+
+import java.util.stream.Collectors;
+
+import Data.StudentDatabase;
+
+public class CountingExample {
+	/*
+	 * counting():Collector returns total number of elements as result
+	 */
+	
+	public static long count() {
+	  return 
+			  StudentDatabase.getAllStudents().stream()
+			  .filter(s->s.getGpa()>=3.9)
+			  .collect(Collectors.counting());
+	}
+	public static void main(String[] args) {
+		
+		System.out.println(count());
+		
+	}
+}

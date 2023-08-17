@@ -1,0 +1,5 @@
+package com.project.orderservicedemo.model;
+
+public class OrderResponse {
+
+}

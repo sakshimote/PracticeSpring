@@ -1,0 +1,23 @@
+
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ê¶ê…üÿÿÿÿH“$RMINORZ
+CODE_SMELL
+p
+java:S1854"=Remove this useless assignment to local variable "consumer1".(ğ¿˜8¡Ûçö1H›$RMAJORZ
+CODE_SMELL
+^
+java:S1481"&Remove this unused "i" local variable.(ùó›Ìøÿÿÿÿ8¡Ûçö1Hœ$RMINORZ
+CODE_SMELL
+„
+java:S4276"QRefactor this code to use the more specialised Functional Interface 'IntConsumer'(ğ¿˜8¡Ûçö1H$RMINORZ
+CODE_SMELL
+c
+java:S1611"0Remove the parentheses around the "i1" parameter(ğ¿˜8¡Ûçö1HŸ$RMINORZ
+CODE_SMELL
+s
+java:S1612"@Replace this lambda with method reference 'System.out::println'.(ğ¿˜8¡Ûçö1H $RMINORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(ğ¿˜8¡Ûçö1H¢$RMAJORZ
+CODE_SMELL
+a
+java:S1481".Remove this unused "consumer1" local variable.(ğ¿˜8¡Ûçö1H£$RMINORZ
+CODE_SMELL

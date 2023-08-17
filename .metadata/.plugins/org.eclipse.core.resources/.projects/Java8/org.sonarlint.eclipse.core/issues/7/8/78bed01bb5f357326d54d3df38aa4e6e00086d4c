@@ -1,0 +1,10 @@
+
+p	java:S106"9Replace this use of System.out or System.err by a logger.(½ïÀÐþÿÿÿÿ8»´êšž1HŠ%RMAJORZ
+CODE_SMELL
+n	java:S125"<This block of commented-out lines of code should be removed.(Èï†Ô8‡‘õšž1H•%RMAJORZ
+CODE_SMELL
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ßçÔ¶úÿÿÿÿH‡%RMINORZ
+CODE_SMELL
+…
+java:S6204"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8Ÿéšž1H‰%RMAJORZ
+CODE_SMELL

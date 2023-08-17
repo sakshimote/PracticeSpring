@@ -1,0 +1,13 @@
+package com.demo.DtoMapstructApp.dto;
+
+import jakarta.persistence.Id;
+
+public class productDto {
+
+	
+	private int id;
+	private String name;
+	private String desc;
+	private int quantity;
+	private long price;
+}

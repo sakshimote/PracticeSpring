@@ -1,0 +1,12 @@
+
+¥
+java:S1128"ÄRemove this unused import 'org.springframework.cloud.gateway.filter.factory.SpringCloudCircuitBreakerResilience4JFilterFactory'.(¿‡œ»8ˆ›çßí1H›RMINORZ
+CODE_SMELL
+{
+java:S1128"HRemove this unused import 'org.springframework.context.annotation.Bean'.(ÇÓâﬁ8ˆ›çßí1HﬂRMINORZ
+CODE_SMELL
+Ö	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‰ºÑ¥H·RMINORZ
+CODE_SMELL
+ä
+java:S1128"WRemove this unused import 'org.springframework.cloud.client.circuitbreaker.Customizer'.(∏›˚Æ8ˆ›çßí1H‚RMINORZ
+CODE_SMELL

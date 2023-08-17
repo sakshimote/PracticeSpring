@@ -1,0 +1,5 @@
+package com.demo.DtoMapstructApp.repository;
+
+public interface ProductRepository {
+
+}

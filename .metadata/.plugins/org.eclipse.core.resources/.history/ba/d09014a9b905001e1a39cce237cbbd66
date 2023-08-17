@@ -1,0 +1,5 @@
+package com.demo.DtoMapstructApp.model;
+
+public class Product {
+
+}

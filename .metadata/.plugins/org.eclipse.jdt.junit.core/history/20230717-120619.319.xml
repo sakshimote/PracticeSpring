@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="OrderServiceImplTest" project="orderservicedemo" tests="4" started="4" failures="0" errors="0" ignored="0">
+  <testsuite name="com.project.orderservicedemo.OrderServiceImplTest" time="0.273" displayname="OrderServiceImplTest" uniqueid="[engine:junit-jupiter]/[class:com.project.orderservicedemo.OrderServiceImplTest]">
+    <testcase name="test_when_order_not_found" classname="com.project.orderservicedemo.OrderServiceImplTest" time="0.166" displayname="get order- failure" uniqueid="[engine:junit-jupiter]/[class:com.project.orderservicedemo.OrderServiceImplTest]/[method:test_when_order_not_found()]"/>
+    <testcase name="test_when_place_order_success" classname="com.project.orderservicedemo.OrderServiceImplTest" time="0.03" displayname="place order - success" uniqueid="[engine:junit-jupiter]/[class:com.project.orderservicedemo.OrderServiceImplTest]/[method:test_when_place_order_success()]"/>
+    <testcase name="test_when_order_success" classname="com.project.orderservicedemo.OrderServiceImplTest" time="0.042" displayname="get order -success" uniqueid="[engine:junit-jupiter]/[class:com.project.orderservicedemo.OrderServiceImplTest]/[method:test_when_order_success()]"/>
+    <testcase name="test_place_order_payment_fail_order_placed" classname="com.project.orderservicedemo.OrderServiceImplTest" time="0.021" displayname="place order - payment fail" uniqueid="[engine:junit-jupiter]/[class:com.project.orderservicedemo.OrderServiceImplTest]/[method:test_place_order_payment_fail_order_placed()]"/>
+  </testsuite>
+</testrun>

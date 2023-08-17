@@ -1,0 +1,11 @@
+
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ßçÔ¶úÿÿÿÿHœ&RMINORZ
+CODE_SMELL
+k	java:S106)"9Replace this use of System.out or System.err by a logger.(¡¡žð8ç¶¼˜Ÿ1H¡&RMAJORZ
+CODE_SMELL
+k	java:S106*"9Replace this use of System.out or System.err by a logger.(áÂúÞ8”øÈ˜Ÿ1H¤&RMAJORZ
+CODE_SMELL
+|
+java:S3655*"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(áÂúÞ8”øÈ˜Ÿ1H£&RMAJORZBUG
+|
+java:S3655)"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(¡¡žð8î˜½˜Ÿ1H¢&RMAJORZBUG

@@ -1,0 +1,6 @@
+package com.project.orderservicedemo.service;
+
+public class OrderServiceImpl implements OrderService {
+	
+
+}

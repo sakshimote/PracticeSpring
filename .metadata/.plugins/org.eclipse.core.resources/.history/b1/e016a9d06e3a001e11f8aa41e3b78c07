@@ -1,0 +1,58 @@
+package Streams;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.Optional;
+
+import Data.Student;
+import Data.StudentDatabase;
+
+public class StreamsReduceExample {
+	
+	public static int performMultiplication(List<Integer> list) {
+		return list.stream().reduce(1, (a,b)->a*b);
+		
+	}
+	
+	public static Optional<Integer> performMultiplicationWithoutIdentity(List<Integer> list) {
+		
+		return list.stream().reduce((a,b)->a*b);
+		
+	}
+	
+	public static Optional<Student> getHighestGpaStudent(){
+		return StudentDatabase.getAllStudents().stream().reduce((s1,s2)->{
+			if(s1.getGpa()>s2.getGpa()) {
+				return s1;
+			}else {
+				return s2;
+			}
+		
+		});
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		
+		/*
+		 * reduce:this is a terminal operation . used to reduce the contents of
+		 *  stream to a single value
+		 *  it takes two parameters as input:
+		 *  first parameters:default of initial value
+		 *  second parameter:Binary Operator<T>
+		 *  Binary Operator: like a function which takes two inputs of same type & returns output of 
+		 *  same type
+		 *  
+		 */
+		
+		List<Integer> integers=Arrays.asList(1,3,4,5);
+		
+		System.out.println(performMultiplication(integers));
+		System.out.println(performMultiplicationWithoutIdentity(integers).get());
+
+		System.out.println( getHighestGpaStudent().get());
+		
+	}
+
+}

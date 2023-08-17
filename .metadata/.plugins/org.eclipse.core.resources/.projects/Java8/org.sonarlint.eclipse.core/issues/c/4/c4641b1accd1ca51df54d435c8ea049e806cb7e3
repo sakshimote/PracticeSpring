@@ -1,0 +1,16 @@
+
+x
+java:S1612
+"@Replace this lambda with method reference 'System.out::println'.(Şÿúÿÿÿÿ8¼Ô¸Í1Hı#RMINORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(ü†ßÿÿÿÿÿ8»ŞµÎ1Hƒ$RMAJORZ
+CODE_SMELL
+g
+java:S1611
+"/Remove the parentheses around the "p" parameter(Şÿúÿÿÿÿ8¼Ô¸Í1Hü#RMINORZ
+CODE_SMELL
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¾¯ûÒùÿÿÿÿHø#RMINORZ
+CODE_SMELL
+p	java:S106
+"9Replace this use of System.out or System.err by a logger.(Şÿúÿÿÿÿ8¼Ô¸Í1Hÿ#RMAJORZ
+CODE_SMELL

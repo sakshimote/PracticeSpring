@@ -1,0 +1,9 @@
+package FunctionalInterfaces;
+
+import java.util.function.BiConsumer;
+
+public class BiconsumerExample {
+	
+	BiConsumer<T, U>
+
+}

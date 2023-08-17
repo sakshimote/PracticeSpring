@@ -1,0 +1,24 @@
+package Streams;
+
+import java.util.stream.Stream;
+
+public class StreamsFactoryMethods {
+	
+	public static void main(String[] args) {
+		/*
+		 * of(): creates a stream of certain values passed to this method
+		 * 
+		 * iterate(), generate(): used to create infinite streams
+		 * 
+		 * generate() takes supplier
+		 * Stream.generate(<Supplier>);
+		 */
+		
+		Stream<String> streamString=Stream.of("hello","java 8","you're","amazing");
+		streamString.forEach(System.out::println);
+		
+		Stream.iterate(1, x->x*2).forEach(System.out::println);
+		
+	}
+
+}

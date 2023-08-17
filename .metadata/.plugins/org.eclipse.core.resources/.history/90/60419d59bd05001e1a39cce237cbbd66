@@ -1,0 +1,16 @@
+package com.demo.DtoMapstructApp.mapper;
+
+import org.mapstruct.Mapper;
+
+import com.demo.DtoMapstructApp.dto.ProductDto;
+import com.demo.DtoMapstructApp.model.Product;
+
+@Mapper
+public interface ProductMapper {
+
+	ProductDto modelToDto(Product product);
+
+	Product dtoTomodel(ProductDto dto);
+
+
+}

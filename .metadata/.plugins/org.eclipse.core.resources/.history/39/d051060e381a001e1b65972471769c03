@@ -1,0 +1,9 @@
+package com.example.PaymentServiceDemo.service;
+
+import com.example.PaymentServiceDemo.model.PaymentRequest;
+
+public interface PaymentService {
+
+	long doPayment(PaymentRequest paymentRequest);
+
+}

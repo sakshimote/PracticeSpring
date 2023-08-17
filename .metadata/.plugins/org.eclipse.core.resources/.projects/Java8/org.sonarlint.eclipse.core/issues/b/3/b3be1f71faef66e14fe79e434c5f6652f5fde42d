@@ -1,0 +1,31 @@
+
+„	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¦Ş«DHÒ"RMINORZ
+CODE_SMELL
+`
+java:S1611"/Remove the parentheses around the "s" parameter(Ü÷°ıùÿÿÿÿHÓ"RMINORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(Ü÷°ıùÿÿÿÿHÔ"RMAJORZ
+CODE_SMELL
+f
+java:S1611"5Remove the parentheses around the "student" parameter(ÁëªÖúÿÿÿÿHÕ"RMINORZ
+CODE_SMELL
+q
+java:S1612"@Replace this lambda with method reference 'System.out::println'.(ÁëªÖúÿÿÿÿHÖ"RMINORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(ÁëªÖúÿÿÿÿHØ"RMAJORZ
+CODE_SMELL
+a
+java:S1611"5Remove the parentheses around the "student" parameter(øëôHÙ"RMINORZ
+CODE_SMELL
+d	java:S106"9Replace this use of System.out or System.err by a logger.(øëôHÚ"RMAJORZ
+CODE_SMELL
+f
+java:S1611"5Remove the parentheses around the "student" parameter(ÊãÍğúÿÿÿÿHÛ"RMINORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(ÊãÍğúÿÿÿÿHÜ"RMAJORZ
+CODE_SMELL
+d	java:S1067"9Replace this use of System.out or System.err by a logger.(Šª‰³Hİ"RMAJORZ
+CODE_SMELL
+a
+java:S16118"5Remove the parentheses around the "student" parameter(Ã·ßHŞ"RMINORZ
+CODE_SMELL

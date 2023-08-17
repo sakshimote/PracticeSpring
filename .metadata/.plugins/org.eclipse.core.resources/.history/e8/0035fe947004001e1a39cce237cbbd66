@@ -1,0 +1,26 @@
+package com.project.orderservicedemo.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.project.orderservicedemo.model.OrderRequest;
+import com.project.orderservicedemo.repository.OrderRepository;
+
+import lombok.extern.log4j.Log4j2;
+
+@Service
+@Log4j2
+public class OrderServiceImpl implements OrderService {
+	
+	@Autowired
+	private OrderRepository orderRepository;
+	
+	@Override
+	public long placeOrder(OrderRequest orderRequest) {
+		
+		return 0;
+	}
+	
+
+}
+

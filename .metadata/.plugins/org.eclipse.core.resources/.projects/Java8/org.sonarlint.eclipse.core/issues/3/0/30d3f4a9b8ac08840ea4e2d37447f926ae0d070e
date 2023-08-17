@@ -1,0 +1,35 @@
+
+„	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¦Þ«DHá"RMINORZ
+CODE_SMELL
+~
+java:S4276"RRefactor this code to use the more specialised Functional Interface 'IntPredicate'(­ò£²Hâ"RMINORZ
+CODE_SMELL
+[
+java:S1611"/Remove the parentheses around the "a" parameter(­ò£²Hã"RMINORZ
+CODE_SMELL
+
+java:S1602"SRemove useless curly braces around statement and then remove useless return keyword(­ò£²Hä"RMINORZ
+CODE_SMELL
+~
+java:S4276"RRefactor this code to use the more specialised Functional Interface 'IntPredicate'(óá¶îHå"RMINORZ
+CODE_SMELL
+[
+java:S1611"/Remove the parentheses around the "a" parameter(óá¶îHæ"RMINORZ
+CODE_SMELL
+[
+java:S1611"/Remove the parentheses around the "a" parameter(“ñœëHç"RMINORZ
+CODE_SMELL
+d	java:S106"9Replace this use of System.out or System.err by a logger.(Œí›æHè"RMAJORZ
+CODE_SMELL
+d	java:S106"9Replace this use of System.out or System.err by a logger.(îºÏáHé"RMAJORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(›ºØ™ùÿÿÿÿHê"RMAJORZ
+CODE_SMELL
+c	java:S106"9Replace this use of System.out or System.err by a logger.(â†Ñ%Hë"RMAJORZ
+CODE_SMELL
+d	java:S106#"9Replace this use of System.out or System.err by a logger.(ä¾¸¼Hì"RMAJORZ
+CODE_SMELL
+i	java:S106("9Replace this use of System.out or System.err by a logger.(³²ÏÏýÿÿÿÿHí"RMAJORZ
+CODE_SMELL
+d	java:S106,"9Replace this use of System.out or System.err by a logger.(ûÆÿéHî"RMAJORZ
+CODE_SMELL

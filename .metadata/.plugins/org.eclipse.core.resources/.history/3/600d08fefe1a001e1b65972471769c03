@@ -1,0 +1,5 @@
+package com.example.API.GATEWAY.controller;
+
+public class FallbackController {
+
+}

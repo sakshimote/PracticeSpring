@@ -1,0 +1,5 @@
+package ParallelStreams;
+
+public class SumClient {
+
+}

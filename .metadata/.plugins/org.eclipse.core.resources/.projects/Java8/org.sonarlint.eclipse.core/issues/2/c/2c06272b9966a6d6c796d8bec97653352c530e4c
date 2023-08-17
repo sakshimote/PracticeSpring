@@ -1,0 +1,11 @@
+
+p	java:S106""9Replace this use of System.out or System.err by a logger.(¹‰úıüÿÿÿÿ8…‚Û—Ÿ1H–&RMAJORZ
+CODE_SMELL
+
+java:S3655""PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(¹‰úıüÿÿÿÿ8…‚Û—Ÿ1H•&RMAJORZBUG
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ßçÔ¶úÿÿÿÿH‘&RMINORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(ìÔŒÈûÿÿÿÿ8èìÑ—Ÿ1H“&RMAJORZ
+CODE_SMELL
+
+java:S3655"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(ìÔŒÈûÿÿÿÿ8òÍÒ—Ÿ1H”&RMAJORZBUG

@@ -1,0 +1,15 @@
+
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ßçÔ¶úÿÿÿÿHª%RMINORZ
+CODE_SMELL
+|
+java:S3655:"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(ÂÖìÏ8¨¯Ïžž1H®%RMAJORZBUG
+p	java:S106?"9Replace this use of System.out or System.err by a logger.(•·†¤øÿÿÿÿ8½ï·žž1H«%RMAJORZ
+CODE_SMELL
+k	java:S106:"9Replace this use of System.out or System.err by a logger.(ÂÖìÏ8Œæ€Ÿž1H¬%RMAJORZ
+CODE_SMELL
+k	java:S1069"9Replace this use of System.out or System.err by a logger.(âÖ¤þ8ÜƒÊžž1H­%RMAJORZ
+CODE_SMELL
+“
+java:S3655?"bCall "highestGpaStudent.isPresent()" or "!highestGpaStudent.isEmpty()" before accessing the value.(•·†¤øÿÿÿÿ8‡™Â–Ÿ1Hù%RMAJORZBUG
+m	java:S125"<This block of commented-out lines of code should be removed.( ¢Ž8‰œÏ–Ÿ1H‚&RMAJORZ
+CODE_SMELL

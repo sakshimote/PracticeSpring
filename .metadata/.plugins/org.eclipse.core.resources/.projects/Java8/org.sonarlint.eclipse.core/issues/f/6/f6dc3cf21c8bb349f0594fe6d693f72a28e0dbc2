@@ -1,0 +1,36 @@
+
+g
+java:S1611"/Remove the parentheses around the "i" parameter(€ê××úÿÿÿÿ8éæÄìŸ1H‹'RMINORZ
+CODE_SMELL
+k
+java:S1612
+"9Replace this lambda with method reference 'Integer::new'.(¥Çü#8 †ºìŸ1H€'RMINORZ
+CODE_SMELL
+…
+java:S1602
+"SRemove useless curly braces around statement and then remove useless return keyword(¥Çü#8 †ºìŸ1Hÿ&RMINORZ
+CODE_SMELL
+a
+java:S1611
+"/Remove the parentheses around the "i" parameter(¥Çü#8 †ºìŸ1Hş&RMINORZ
+CODE_SMELL
+p	java:S106 "9Replace this use of System.out or System.err by a logger.(ÿœ„Âüÿÿÿÿ8 †ºìŸ1H…'RMAJORZ
+CODE_SMELL
+g
+java:S1611"/Remove the parentheses around the "i" parameter(åÙÂ‹úÿÿÿÿ8ÂÆËìŸ1H“'RMINORZ
+CODE_SMELL
+{
+java:S5738"HRemove this call to a deprecated method, it has been marked for removal.(€¿°Ú8 †ºìŸ1H„'RMAJORZ
+CODE_SMELL
+p	java:S106!"9Replace this use of System.out or System.err by a logger.(‰›Œ¯ÿÿÿÿÿ8šÉÅìŸ1H'RMAJORZ
+CODE_SMELL
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(º¡í¹ûÿÿÿÿHú&RMINORZ
+CODE_SMELL
+…
+java:S6204"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(œçÖß8 †ºìŸ1Hı&RMAJORZ
+CODE_SMELL
+T
+java:S2129"!Remove this "Integer" constructor(€¿°Ú8 †ºìŸ1H‚'RMAJORZ
+CODE_SMELL
+p	java:S106""9Replace this use of System.out or System.err by a logger.(ãÒŞïÿÿÿÿÿ8õ–ÌìŸ1H—'RMAJORZ
+CODE_SMELL

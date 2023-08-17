@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\SAKSCHAN\Downloads\API GATEWAY"/>
+			<item value="C:\Users\SAKSCHAN\OneDrive - Capgemini\Documents\git\LMSBackendSystem"/>
+			<item value="C:\Users\SAKSCHAN\OneDrive - Capgemini\Documents\git\EcomBackend"/>
+			<item value="C:\Users\SAKSCHAN\Downloads\PaymentServiceDemo"/>
+			<item value="C:\Users\SAKSCHAN\Downloads\ConfigServer"/>
+			<item value="C:\Users\SAKSCHAN\Downloads\DtoMapstructApp"/>
+			<item value="C:\Users\SAKSCHAN\Downloads\orderservicedemo"/>
+			<item value="C:\Users\SAKSCHAN\Downloads\service-registry"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>

@@ -1,0 +1,27 @@
+package com.demo.DtoMapstructApp.dto;
+
+import java.util.List;
+
+import com.demo.DtoMapstructApp.model.Item;
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Setter
+@Getter
+
+public class ProductDto {
+
+
+	private int id;
+	private String name;
+	
+	private String description;
+	
+	private String quantity;
+	private long price;
+	
+	private String itemId;
+	
+	private List<Item> itemsList;
+}

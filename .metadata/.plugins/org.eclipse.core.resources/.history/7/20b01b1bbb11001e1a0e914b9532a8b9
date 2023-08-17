@@ -1,0 +1,8 @@
+package com.project.orderservicedemo.external.client;
+
+import org.springframework.cloud.openfeign.FeignClient;
+
+@FeignClient(name = "PAYMENT-SERVICE/payment")
+public interface PaymentService {
+
+}

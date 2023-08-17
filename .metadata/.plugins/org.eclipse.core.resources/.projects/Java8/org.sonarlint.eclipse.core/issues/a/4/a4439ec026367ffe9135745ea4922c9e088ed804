@@ -1,0 +1,13 @@
+
+e
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8¼î—ìŸ1Hø&RMINORZ
+CODE_SMELL
+p	java:S106*"9Replace this use of System.out or System.err by a logger.(îÛ¡üÿÿÿÿ8Ü“ìŸ1Hö&RMAJORZ
+CODE_SMELL
+p	java:S106'"9Replace this use of System.out or System.err by a logger.(Œ’ªíøÿÿÿÿ8ú½ïèŸ1Hõ&RMAJORZ
+CODE_SMELL
+…
+java:S6204"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8ç¢íèŸ1Hô&RMAJORZ
+CODE_SMELL
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(º¡í¹ûÿÿÿÿHò&RMINORZ
+CODE_SMELL

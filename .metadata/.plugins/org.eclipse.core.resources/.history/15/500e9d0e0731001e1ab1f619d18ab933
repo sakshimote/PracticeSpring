@@ -1,0 +1,63 @@
+package FunctionalInterfaces;
+
+import java.util.List;
+import java.util.function.Consumer;
+
+import Data.Student;
+import Data.StudentDatabase;
+
+public class ConsumerExample {
+	
+
+ static	Consumer<String> consumer=(s)->System.out.println(s.toUpperCase());
+ static	Consumer<Student> consumer1=(student)->System.out.println(student);
+ 
+	static Consumer<Student> consumer2=(student)->System.out.print(student.getName());
+	static Consumer<Student> consumer3=(student)->System.out.println(student.getActivities());
+ 
+
+	
+	public static void main(String[] args) {
+		
+		
+	
+		
+	
+		
+		consumer.accept("java8");
+		
+		printName();
+		printNameActivities();
+		
+	}
+	
+	public static void printName() {
+		
+	
+		
+		List<Student> listOfStudents= StudentDatabase.getAllStudents();
+		listOfStudents.forEach(consumer1);
+		
+	}
+	
+	public static void printNameActivities() {
+		List<Student> listOfStudents= StudentDatabase.getAllStudents();
+	
+		
+		
+		listOfStudents.forEach(consumer2.andThen(consumer3)); //consumer chain
+		
+	}
+	
+	public static void printNameActivitiesUsingCondition() {
+		List<Student> listOfStudents= StudentDatabase.getAllStudents();
+		
+		listOfStudents.forEach((student)->{
+			if(student.getGradeLevel()>2) {
+				consumer2.andThen(consumer3);
+			}
+		});
+	}
+	
+
+}

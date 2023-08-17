@@ -1,0 +1,40 @@
+package ParallelStreams;
+
+import java.util.List;
+import java.util.stream.Collectors;
+
+import Data.Student;
+import Data.StudentDatabase;
+
+public class ParallelStreamExample1 {
+	
+	
+	public static List<String> sequentialGetStudentActivities(){
+		
+		List<String> StudentActivities=StudentDatabase.getAllStudents().stream() //stream<Student>
+		.map(Student::getActivities)//Stream<List<String>>
+		.flatMap(List::stream)//stream<String>
+		.collect(Collectors.toList());
+		return StudentActivities;
+	}
+	
+	public static List<String> parallelGetStudentActivities(){
+		
+		List<String> StudentActivities=StudentDatabase.getAllStudents().stream()
+				.parallel()//stream<Student>
+		.map(Student::getActivities)//Stream<List<String>>
+		.flatMap(List::stream)//stream<String>
+		.collect(Collectors.toList());
+		return StudentActivities;
+	}
+	
+	
+	public static void main(String[] args) {
+		
+		System.out.println(sequentialGetStudentActivities());
+		System.out.println(parallelGetStudentActivities());
+		
+		
+	}
+
+}

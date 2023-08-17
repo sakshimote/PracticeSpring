@@ -1,0 +1,34 @@
+package com.demo.DtoMapstructApp.mapper;
+
+import com.demo.DtoMapstructApp.dto.ProductDto;
+import com.demo.DtoMapstructApp.model.Product;
+
+public class ProductMapperImpl implements ProductMapper {
+
+	@Override
+	public ProductDto modelToDto(Product product) {
+		// TODO Auto-generated method stub
+		
+		ProductDto productDto=new ProductDto();
+		productDto.setId(product.getId());
+		productDto.setName(product.getName());
+		productDto.setPrice(product.getPrice());
+		productDto.setQuantity(product.getQuantity());
+		
+		return productDto;
+	}
+
+	@Override
+	public Product dtoTomodel(ProductDto dto) {
+		// TODO Auto-generated method stub
+		
+		Product product=new Product();
+		product.setId(dto.getId());
+		product.setName(dto.getName());
+		product.setPrice(dto.getPrice());
+		product.setQuantity(dto.getQuantity());
+		
+		return product;
+	}
+
+}

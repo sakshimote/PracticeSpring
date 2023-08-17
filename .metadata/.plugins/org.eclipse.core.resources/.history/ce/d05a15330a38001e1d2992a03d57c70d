@@ -1,0 +1,23 @@
+package Streams;
+
+import java.util.List;
+import java.util.stream.Collectors;
+
+import Data.Student;
+import Data.StudentDatabase;
+
+public class StreamsMapExample {
+	
+	public static List<String> nameList(){
+		
+		List<String> nameList=StudentDatabase.getAllStudents().stream().map(Student::getName).collect(Collectors.toList());
+		return nameList;
+		
+	}
+	
+	public static void main(String[] args) {
+		
+		nameList;
+	}
+
+}

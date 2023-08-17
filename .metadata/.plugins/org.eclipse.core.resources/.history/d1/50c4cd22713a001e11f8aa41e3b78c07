@@ -1,0 +1,22 @@
+package Streams;
+
+import Data.Student;
+import Data.StudentDatabase;
+
+public class StreamMapReduceExample {
+	
+	private static int numberOfNotebooks() {
+		
+		
+	return	StudentDatabase.getAllStudents().stream()//stream<student>
+		.filter(student->student.getGradeLevel()>=3)	
+		.map(Student ::getNoteBooks)//stream<Integer>
+		.reduce(0,(a,b)->a+b);
+		
+	}
+	
+	public static void main(String[] args) {
+		System.out.println(numberOfNotebooks());
+	}
+
+}

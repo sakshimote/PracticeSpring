@@ -1,0 +1,24 @@
+package TerminalOperations;
+
+import java.util.TooManyListenersException;
+import java.util.stream.Collectors;
+
+import Data.Student;
+import Data.StudentDatabase;
+
+public class MappingExample {
+	
+	/*
+	 * mapping():collector applies a transformation function first and then 
+	 * collects the data in collection (could be any type of collection)
+	 */
+	
+	public static void main(String[] args) {
+		
+		List<String> studentNames=StudentDatabase.getAllStudents().stream().collect(Collectors.mapping(Student::getName, Collectors.toList()));
+		
+		
+		
+	}
+
+}

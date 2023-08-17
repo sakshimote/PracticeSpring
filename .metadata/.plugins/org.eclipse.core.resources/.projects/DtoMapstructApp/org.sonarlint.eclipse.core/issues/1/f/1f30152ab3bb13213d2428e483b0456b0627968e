@@ -1,0 +1,9 @@
+
+y
+java:S1128"FRemove this unused import 'org.mapstruct.InheritInverseConfiguration'.(¦ø³Þ8š÷ØŽŽ1HËRMINORZ
+CODE_SMELL
+ˆ
+java:S1128"PRemove this unused import 'com.demo.DtoMapstructApp.DtoMapstructAppApplication'.(‘áçÒþÿÿÿÿ8ÕšÅÅ‹1HÁRMINORZ
+CODE_SMELL
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(å–ºÞøÿÿÿÿHÀRMINORZ
+CODE_SMELL

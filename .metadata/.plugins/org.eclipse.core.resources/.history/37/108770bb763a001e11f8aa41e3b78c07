@@ -1,0 +1,27 @@
+package Streams;
+
+import Data.StudentDatabase;
+
+public class StreamsMatchExample {
+	
+	//anyMatch(), allMatch(), noneMatch()
+	//all this functions takes in a predicate as input & returns booleans as output
+	
+	//anyMatch(): returns true if any one of the element matches the predicate ,otherwise false
+	//allMatch(): returns true if  all the element in stream matches the predicate , otherwise false
+	//noneMatch():just opposite to allMatch(), 
+	//  returns true if none of the elements in stream matches predicate,otherwise false
+	
+	
+	public static boolean allMatch() {
+		return StudentDatabase.getAllStudents().stream().allMatch(student->student.getGpa()>=3.5);
+		
+	}
+	
+	public static void main(String[] args) {
+		
+		System.out.println(allMatch());
+	
+	}
+
+}

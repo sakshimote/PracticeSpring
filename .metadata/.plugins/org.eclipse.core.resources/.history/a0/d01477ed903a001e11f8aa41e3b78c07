@@ -1,0 +1,27 @@
+package NumericStreams;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.Optional;
+import java.util.stream.IntStream;
+
+public class NumericStreamsExample {
+	
+	public static int sumOfNNumbers(List<Integer> list) {
+		return list.stream().reduce(0,(a,b)->a+b);//unboxing op to convert Integer to int
+		
+	}
+	
+	public static IntStream sumOfNNumbersIntStream(List<Integer> list) {
+		return IntStream.rangeClosed(1, 6);
+		
+	}
+	public static void main(String[] args) {
+		
+		
+		List<Integer> list=Arrays.asList(1,2,3,4,5,6);
+		System.out.println(sumOfNNumbers(list));
+		
+	}
+
+}

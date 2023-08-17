@@ -1,0 +1,12 @@
+package com.project.productservicedemo.service;
+
+import com.project.productservicedemo.model.ProductRequest;
+import com.project.productservicedemo.model.ProductResponse;
+
+public interface ProductService {
+
+	long addPrdouct(ProductRequest productRequest);
+
+	ProductResponse getProductById(long productId);
+
+}

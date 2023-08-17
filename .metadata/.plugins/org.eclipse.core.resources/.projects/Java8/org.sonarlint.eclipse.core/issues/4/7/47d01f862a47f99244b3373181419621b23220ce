@@ -1,0 +1,26 @@
+
+T
+java:S1116"Remove this empty statement.(”àéúÿÿÿÿ8êç–ûœ1H€#RMINORZ
+CODE_SMELL
+„	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¦Ş«DHü"RMINORZ
+CODE_SMELL
+“
+java:S4276"[Refactor this code to use the more specialised Functional Interface 'UnaryOperator<String>'(”àéúÿÿÿÿ8êç–ûœ1Hş"RMINORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(¼Á°Ñúÿÿÿÿ8®Ş ûœ1H†#RMAJORZ
+CODE_SMELL
+j
+java:S1611"2Remove the parentheses around the "name" parameter(Ø–İßøÿÿÿÿ8®Ş ûœ1H…#RMINORZ
+CODE_SMELL
+“
+java:S4276"[Refactor this code to use the more specialised Functional Interface 'UnaryOperator<String>'(Ø–İßøÿÿÿÿ8®Ş ûœ1H„#RMINORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(úœåÅ8êç–ûœ1H‚#RMAJORZ
+CODE_SMELL
+j
+java:S1611"2Remove the parentheses around the "name" parameter(”àéúÿÿÿÿ8êç–ûœ1Hÿ"RMINORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(Ÿƒë²8‰Œ¨ûœ1Hˆ#RMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(Ò°”·ıÿÿÿÿ8ÁŠ°ûœ1HŠ#RMAJORZ
+CODE_SMELL

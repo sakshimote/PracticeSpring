@@ -1,0 +1,11 @@
+
+i
+java:S1135a"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ8€Ü¼Û1HïRINFOZ
+CODE_SMELL
+
+java:S2259"MA "NullPointerException" could be thrown; "productResponse" is nullable here.(ÿº”ûÿÿÿÿ8•¦…ı‘1HğRMAJORZBUG
+™
+java:S1488‡"eImmediately return this expression instead of assigning it to the temporary variable "orderResponse".(šš˜8¢ÀÑÛ1HôRMINORZ
+CODE_SMELL
+y
+java:S2259x"MA "NullPointerException" could be thrown; "paymentResponse" is nullable here.(Ğ„ş8¸Ø¯ş‘1H÷RMAJORZBUG
