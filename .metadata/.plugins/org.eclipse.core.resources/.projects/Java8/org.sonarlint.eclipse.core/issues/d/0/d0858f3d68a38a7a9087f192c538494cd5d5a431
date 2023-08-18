@@ -1,0 +1,10 @@
+
+g
+java:S2209%"5Change this instance-reference to a static reference.(ù™èZ8ˆô“– 1Hö(RMAJORZ
+CODE_SMELL
+s
+java:S2259-"BA "NullPointerException" could be thrown; "name" is nullable here.(ïûêìþÿÿÿÿ8Ú‹ù• 1Hí(RMAJORZBUG
+p	java:S106-"9Replace this use of System.out or System.err by a logger.(ïûêìþÿÿÿÿ8Ú‹ù• 1Hñ(RMAJORZ
+CODE_SMELL
+j	java:S1061"9Replace this use of System.out or System.err by a logger.(äèµ78ÙÕ¡– 1Hý(RMAJORZ
+CODE_SMELL

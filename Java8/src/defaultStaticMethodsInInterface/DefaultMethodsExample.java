@@ -1,0 +1,42 @@
+package defaultStaticMethodsInInterface;
+
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
+
+public class DefaultMethodsExample {
+	/*
+	 * dafault keyword is used to identify a default method in interface
+	 * can be overridden in the implementation class
+	 * used to evolve interfaces in java
+	 * 
+	 * 
+	 * static methods:
+	 * -similar to default methods
+	 * -this cannot be overridden by the implementation class
+	 * 
+	 */
+	
+	
+	/*
+	 * sort list names in alphabetical order
+	 */
+	public static void main(String[] args) {
+		
+		List<String> stringList=Arrays.asList("adam","pam","jenny","jim");
+		
+		//prior java 8
+//		Collections.sort(stringList);
+//		System.out.println("sorted list using collection sort method "+stringList);
+		
+		
+		stringList.sort(Comparator.naturalOrder());
+		System.out.println("sorted list using java 8 default sort method  "+stringList);
+		
+		stringList.sort(Comparator.reverseOrder());
+		System.out.println("sorted list using java 8 default sort method reversed "+stringList);
+		
+	}
+
+}

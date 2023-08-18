@@ -1,21 +1,21 @@
 
-„	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÙÑ›:HÆ'RMINORZ
+p	java:S106D"9Replace this use of System.out or System.err by a logger.(¥Íêëøÿÿÿÿ8æõëğŸ1Hù'RMAJORZ
+CODE_SMELL
+„	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÙÑ›:Hü'RMINORZ
 CODE_SMELL
 n
-java:S1128";Remove this unused import 'java.util.IntSummaryStatistics'.(Õö¤ù8¯î©ñŸ1Hé'RMINORZ
-CODE_SMELL
-p	java:S106;"9Replace this use of System.out or System.err by a logger.(ÓŒ¸§ùÿÿÿÿ8’ç—ñŸ1Hâ'RMAJORZ
-CODE_SMELL
-p	java:S106E"9Replace this use of System.out or System.err by a logger.(¥Íêëøÿÿÿÿ8æõëğŸ1HÏ'RMAJORZ
+java:S1128";Remove this unused import 'java.util.IntSummaryStatistics'.(Õö¤ù8¯î©ñŸ1H÷'RMINORZ
 CODE_SMELL
 «
-java:S1319-"sThe return type of this method should be an interface such as "Map" rather than the implementation "LinkedHashMap".(ªÆÍÜùÿÿÿÿ8·„ñŸ1HÕ'RMINORZ
+java:S1319-"sThe return type of this method should be an interface such as "Map" rather than the implementation "LinkedHashMap".(ªÆÍÜùÿÿÿÿ8·„ñŸ1Hû'RMINORZ
 CODE_SMELL
-k	java:S106B"9Replace this use of System.out or System.err by a logger.(Ùºàö8œÑÚğŸ1HÌ'RMAJORZ
+p	java:S106;"9Replace this use of System.out or System.err by a logger.(ÓŒ¸§ùÿÿÿÿ8’ç—ñŸ1Hö'RMAJORZ
 CODE_SMELL
-p	java:S106A"9Replace this use of System.out or System.err by a logger.(Ò¢ïùÿÿÿÿ8É§ÂîŸ1HÊ'RMAJORZ
+k	java:S106="9Replace this use of System.out or System.err by a logger.(×ÍÏ¯8‰çïîŸ1Hø'RMAJORZ
 CODE_SMELL
-k	java:S106>"9Replace this use of System.out or System.err by a logger.(×ÍÏ¯8‰çïîŸ1HË'RMAJORZ
+p	java:S106@"9Replace this use of System.out or System.err by a logger.(Ò¢ïùÿÿÿÿ8èÊõŸ1Hı'RMAJORZ
 CODE_SMELL
-p	java:S106C"9Replace this use of System.out or System.err by a logger.(ËÁ–îÿÿÿÿÿ8·„ñŸ1H×'RMAJORZ
+p	java:S106B"9Replace this use of System.out or System.err by a logger.(ËÁ–îÿÿÿÿÿ8œÑÚğŸ1Hú'RMAJORZ
+CODE_SMELL
+k	java:S106A"9Replace this use of System.out or System.err by a logger.(Ùºàö8É§ÂîŸ1Hõ'RMAJORZ
 CODE_SMELL

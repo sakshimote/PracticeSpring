@@ -1,0 +1,36 @@
+package optional;
+
+import Data.Student;
+import Data.StudentDatabase;
+
+public class OptionalExample1 {
+	
+	/*
+	
+		
+	 * Introduced as part of java 8 to represent non null value
+	 * avoids null pointer exception & unnecessary  null checks
+	 * concept of optional inspired frome new languages such as scala, Groovy etc
+	 * 
+	 */
+	public static String getStudentName() {
+		Student student= StudentDatabase.studentSupplier.get();
+		
+		if(student!=null) {
+			return student.getName();
+	}else {
+		return null;
+	}
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		
+		String name=getStudentName();
+		System.out.println(name.length());
+		
+	}
+	}
+	
+

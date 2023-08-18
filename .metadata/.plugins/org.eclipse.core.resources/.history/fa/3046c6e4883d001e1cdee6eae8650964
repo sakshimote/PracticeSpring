@@ -1,0 +1,23 @@
+package optional;
+
+import java.util.Optional;
+
+import Data.Student;
+import Data.StudentDatabase;
+
+public class OptionalMapFlatMapExample {
+	
+	
+	public static void optionalFilter() {
+
+		Optional<Student> optStudent=Optional.ofNullable(StudentDatabase.studentSupplier.get());
+		
+		optStudent
+		.filter(s->s.getGpa()>=3.5).ifPresent(s->System.out.println(s));
+	}
+	public static void main(String[] args) {
+		optionalFilter();
+		
+	}
+
+}

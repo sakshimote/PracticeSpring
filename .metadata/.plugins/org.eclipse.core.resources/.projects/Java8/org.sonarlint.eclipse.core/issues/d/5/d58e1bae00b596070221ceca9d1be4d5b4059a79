@@ -1,0 +1,12 @@
+
+‰
+java:S4276"QRefactor this code to use the more specialised Functional Interface 'IntSupplier'(ÒöÙĞüÿÿÿÿ8çÿõŸ1H„(RMINORZ
+CODE_SMELL
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Á»××şÿÿÿÿHÿ'RMINORZ
+CODE_SMELL
+k	java:S106("9Replace this use of System.out or System.err by a logger.(×ş„ 8çÿõŸ1H†(RMAJORZ
+CODE_SMELL
+p	java:S106+"9Replace this use of System.out or System.err by a logger.(îÙöøøÿÿÿÿ8çÿõŸ1H…(RMAJORZ
+CODE_SMELL
+k	java:S106-"9Replace this use of System.out or System.err by a logger.(â÷ë¾8™à 1HŒ(RMAJORZ
+CODE_SMELL

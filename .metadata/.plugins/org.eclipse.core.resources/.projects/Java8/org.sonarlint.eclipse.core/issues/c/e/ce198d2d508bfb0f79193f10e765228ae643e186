@@ -1,0 +1,17 @@
+
+k	java:S106"9Replace this use of System.out or System.err by a logger.(ìÉÉ£8”Ä´ 1H¹(RMAJORZ
+CODE_SMELL
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Á»××şÿÿÿÿHª(RMINORZ
+CODE_SMELL
+e
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8úÃ° 1H³(RMINORZ
+CODE_SMELL
+Š
+java:S6204"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(èÇ’ƒúÿÿÿÿ8úÃ° 1H°(RMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(¸±¡úÿÿÿÿ8úÃ° 1H®(RMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(Ãà€âùÿÿÿÿ8Îã¶ 1HÀ(RMAJORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(Äÿûƒ8Îã¶ 1HÁ(RMAJORZ
+CODE_SMELL

@@ -1,0 +1,18 @@
+
+k	java:S106'"9Replace this use of System.out or System.err by a logger.(‰×õÌ8Á„ß› 1H )RMAJORZ
+CODE_SMELL
+p	java:S106("9Replace this use of System.out or System.err by a logger.(êÖâþùÿÿÿÿ8€áì› 1H²)RMAJORZ
+CODE_SMELL
+l	java:S125"<This block of commented-out lines of code should be removed.(ÁÃ8Ýì› 1H­)RMAJORZ
+CODE_SMELL
+”
+java:S1488"\Immediately return this expression instead of assigning it to the temporary variable "name".(Êãô£þÿÿÿÿ8Ýì› 1Hª)RMINORZ
+CODE_SMELL
+”
+java:S1488"\Immediately return this expression instead of assigning it to the temporary variable "name".(­È±Áøÿÿÿÿ8Á„ß› 1H§)RMINORZ
+CODE_SMELL
+”
+java:S1488"\Immediately return this expression instead of assigning it to the temporary variable "name".(ô’™÷úÿÿÿÿ8±õ÷› 1H·)RMINORZ
+CODE_SMELL
+k	java:S106*"9Replace this use of System.out or System.err by a logger.(õÔÔÁ8¹•ü› 1HÈ)RMAJORZ
+CODE_SMELL

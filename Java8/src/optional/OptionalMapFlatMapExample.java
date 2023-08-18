@@ -1,0 +1,51 @@
+package optional;
+
+import java.util.Optional;
+
+import Data.Bike;
+import Data.Student;
+import Data.StudentDatabase;
+
+public class OptionalMapFlatMapExample {
+	
+	//filter
+	public static void optionalFilter() {
+
+		Optional<Student> optStudent=Optional.ofNullable(StudentDatabase.studentSupplier.get());
+		
+		optStudent
+		.filter(s->s.getGpa()>=3.5).ifPresent(s->System.out.println(s));
+	}
+	
+	//map
+	public static void optionalMap() {
+		Optional<Student> optStudent=Optional.ofNullable(StudentDatabase.studentSupplier.get());
+		
+		if(optStudent.isPresent()) {
+		Optional<String> optAns=	optStudent.filter(s->s.getGpa()>=3.4).map(Student::getName);
+		System.out.println(optAns.get());
+		
+		}
+	}
+	
+	//flatmap
+	public static void optionalFlatMap() {
+		Optional<Student> optStudent=Optional.ofNullable(StudentDatabase.getOptionalStudent().get());
+		
+	Optional<String> name=optStudent.filter(s->s.getGpa()>=3.4)    //optional inside optional so we use flatMap
+		.flatMap(Student::getBike)
+		.map(Bike::getName);
+	
+	System.out.println(name.get());
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		optionalFilter();
+		optionalMap();
+		optionalFlatMap();
+		
+	}
+
+}

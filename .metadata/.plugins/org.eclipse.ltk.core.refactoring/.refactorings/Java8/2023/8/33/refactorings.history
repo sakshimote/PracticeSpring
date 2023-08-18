@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;defaultStaticMethodInInterface&apos; to &apos;defaultStaticMethodsInInterface&apos;&#x0D;&#x0A;- Original project: &apos;Java8&apos;&#x0D;&#x0A;- Original element: &apos;Java8/src/defaultStaticMethodInInterface&apos;&#x0D;&#x0A;- Renamed element: &apos;Java8/src/defaultStaticMethodsInInterface&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update fully qualified names in &apos;*&apos; files&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;defaultStaticMethodInInterface&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;defaultStaticMethodInInterface" name="defaultStaticMethodsInInterface" patterns="*" qualified="true" references="true" stamp="1692337948750" textual="true" version="1.0"/>
+</session>

@@ -1,0 +1,16 @@
+package optional;
+
+import java.util.Optional;
+
+public class OptionalOfEmptyNullableExample {
+	
+	public static Optional<String> ofNullablee(){
+	Optional<String> stringOptional=Optional.ofNullable(null);
+		return stringOptional;
+	}
+	public static void main(String[] args) {
+		
+		System.out.println(ofNullablee().isPresent());
+	}
+
+}
