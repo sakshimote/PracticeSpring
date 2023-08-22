@@ -1,0 +1,10 @@
+package defaultStaticMethodsInInterface;
+
+import java.util.List;
+
+public interface Multiplier {
+	
+
+	int multiply(List<Integer> list);
+
+}

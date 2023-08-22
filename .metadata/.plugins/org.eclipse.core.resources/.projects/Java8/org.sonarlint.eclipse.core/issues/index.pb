@@ -109,3 +109,7 @@ X
 (src/optional/OptionalPresentExample.java,0\d\0d296f506680a272065a71407d67a47b407824c0
 [
 +src/optional/OptionalMapFlatMapExample.java,d\6\d651c17a4f4b802b0904b93f54473c965827b18e
+B
+src/Data/Bike.java,8\d\8df0091c0c394bc6b8a0bad6e03aefa1242cb4e0
+n
+>src/defaultStaticMethodsInInterface/DefaultMethodsExample.java,e\f\ef36e4e28f31473ec188d98b5eaa375ba0f35db7

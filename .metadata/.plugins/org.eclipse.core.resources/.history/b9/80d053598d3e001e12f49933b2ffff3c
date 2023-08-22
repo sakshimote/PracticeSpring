@@ -1,0 +1,36 @@
+package defaultStaticMethodsInInterface;
+
+import java.util.Comparator;
+import java.util.List;
+import java.util.function.Consumer;
+
+import Data.Student;
+import Data.StudentDatabase;
+
+public class DefaultMethodsExample2 {
+	
+	
+	public static void sortByName(List<Student> studentList) {
+		
+		Comparator<Student> nameComparator=Comparator.comparing(Student::getName);
+		studentList.sort(nameComparator);
+		
+		
+	}
+	public static void main(String[] args) {
+		
+		Consumer<Student> consumer=(s->System.out.println(s));
+		List<Student> studentList=StudentDatabase.getAllStudents();
+		
+		//System.out.println(studentList);
+		
+		studentList.forEach(consumer);
+		
+		sortByName(studentList);
+		
+		
+		
+		
+	}
+
+}

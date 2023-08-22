@@ -1,0 +1,18 @@
+package NewDateTimeApis;
+
+import java.time.Instant;
+
+public class InstantExample {
+	/*
+	 * represent time in machine readable format
+	 * represent the time in seconds 
+	 */
+	
+	public static void main(String[] args) {
+		
+	Instant instant=	Instant.now();
+	System.out.println(instant);
+		
+	}
+
+}

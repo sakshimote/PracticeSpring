@@ -1,0 +1,35 @@
+package NewDateTimeApis;
+
+import java.time.LocalDate;
+import java.time.Period;
+
+public class PeriodExample {
+	/*
+	 * period is date based representation of time in days months years &
+	 * is part of java.time package 
+	 * compatible with localdate
+	 * represents period of time not just specific date & time
+	 * 
+	 * use-cases:
+	 * used to calculate differenec between two dates
+	 * 
+	 */
+	public static void main(String[] args) {
+		
+		LocalDate date=LocalDate.of(2018, 6, 23);
+		LocalDate date2=LocalDate.of(2019, 7, 28);
+		
+				Period period=	date.until(date2);
+		System.out.println(period.getDays());
+		System.out.println(period.getMonths());
+		System.out.println(period.getYears());
+		
+		Period period1=	Period.ofYears(10);
+		System.out.println(period1.getDays());
+		System.out.println(period1.toTotalMonths());
+		
+		Period period2=Period.between(date, date2);
+		System.out.println(period2);
+	}
+
+}

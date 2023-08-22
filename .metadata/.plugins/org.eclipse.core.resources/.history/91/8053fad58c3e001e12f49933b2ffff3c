@@ -1,0 +1,19 @@
+package defaultStaticMethodsInInterface;
+
+import java.util.List;
+
+import Data.Student;
+import Data.StudentDatabase;
+
+public class DefaultMethodsExample2 {
+	
+	public static void main(String[] args) {
+		
+		List<Student> studentList=StudentDatabase.getAllStudents();
+		
+		System.out.println(studentList);
+		
+		
+	}
+
+}

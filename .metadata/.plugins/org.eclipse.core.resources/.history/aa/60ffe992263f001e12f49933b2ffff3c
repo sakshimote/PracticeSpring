@@ -1,0 +1,31 @@
+package NewDateTimeApis;
+
+import java.time.LocalDate;
+import java.time.temporal.ChronoField;
+
+public class LocalDateExample {
+	public static void main(String[] args) {
+	LocalDate localDate1=	LocalDate.of(2001, 01, 25);
+	System.out.println(localDate1);
+	
+	
+		LocalDate localDate2=LocalDate.ofYearDay(2001, 8);
+		System.out.println(localDate2);
+		
+		//get values from localdate
+		
+		System.out.println(localDate1.getDayOfWeek());
+		System.out.println(localDate1.get(ChronoField.DAY_OF_MONTH));
+		
+		
+		//modifying local Date
+		
+		LocalDate date=LocalDate.now();
+		System.out.println(date.plusDays(2));
+		System.out.println(date.plusMonths(2));
+		System.out.println(date.plusMonths(5));
+		
+	}
+	
+
+}

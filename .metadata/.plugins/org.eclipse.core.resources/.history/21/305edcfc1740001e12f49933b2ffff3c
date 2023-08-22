@@ -1,0 +1,26 @@
+package NewDateTimeApis;
+
+import java.time.ZoneId;
+import java.time.ZonedDateTime;
+
+public class TimeZonesExample {
+	/*
+	 * ZonedDateTime, ZoneID, ZoneOffset
+	 * 
+	 * ZonedDateTime:represents the date/time with its time zone
+	 * 
+	 */
+	public static void main(String[] args) {
+		
+		ZonedDateTime zoDateTime= ZonedDateTime.now();
+		System.out.println(zoDateTime);
+		System.out.println(zoDateTime.getOffset());
+		
+		System.out.println(zoDateTime.getZone());
+		
+		
+	//System.out.println(ZoneId.getAvailableZoneIds());	
+		ZoneId.getAvailableZoneIds().stream().forEach((s)->System.out.println(s));
+	}
+
+}

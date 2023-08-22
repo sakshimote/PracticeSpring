@@ -1,0 +1,32 @@
+package NewDateTimeApis;
+
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+
+public class DateTimeFormatterExample {
+	
+	/*
+	 * introduced in java 8  & part of  java.time.format package
+	 * used to parse & format the localdate , localtime, localdatetime
+	 * 
+	 * parse & format::
+	 * parse:Converting a string to a localDate /localtime/localdatetime
+	 * format:converting localDate /localtime/localdatetime to string
+	 * 
+	 */
+	public static void parseLocalDate() {
+		String date="2018-04-08";
+		LocalDate localDate=LocalDate.parse(date);
+		System.out.println(localDate);
+		
+	}
+	
+        public static void formatLocalDate() {
+		
+	}
+	
+	public static void main(String[] args) {
+		parseLocalDate();
+	}
+
+}

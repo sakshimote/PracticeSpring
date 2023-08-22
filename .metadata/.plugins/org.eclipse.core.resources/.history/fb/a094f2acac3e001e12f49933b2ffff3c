@@ -1,0 +1,5 @@
+package defaultStaticMethodsInInterface;
+
+public interface Interface3 {
+
+}

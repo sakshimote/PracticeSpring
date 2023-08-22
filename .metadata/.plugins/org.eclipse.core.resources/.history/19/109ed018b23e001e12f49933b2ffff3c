@@ -1,0 +1,6 @@
+package defaultStaticMethodsInInterface;
+
+public class Client14 implements Interface1,Interface4{
+	
+
+}

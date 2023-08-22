@@ -1,0 +1,25 @@
+package NewDateTimeApis;
+
+import java.time.LocalTime;
+
+public class FormattingLocalTimeExample {
+	
+	public static void parseTime() {
+		String time="13:00";
+	LocalTime localTime=	LocalTime.parse(time);
+	System.out.println(localTime);
+		
+	}
+	
+	public static void formatTime() {
+		
+	}
+	public static void main(String[] args) {
+		
+		parseTime();
+		formatTime();
+		
+		
+	}
+
+}

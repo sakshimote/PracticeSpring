@@ -1,0 +1,10 @@
+package NewDateTimeApis;
+
+import java.time.LocalDate;
+
+public class LocalDateExample {
+	public static void main(String[] args) {
+	LocalDate localDate1=	LocalDate.of(2001, 01, 25);
+	}
+
+}
